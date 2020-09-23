@@ -1,0 +1,40 @@
+.box {
+  margin: auto;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  min-width: 400px;
+  background: white;
+}
+
+.btn {
+  position: absolute;
+  right: -28px;
+  bottom: 11px;
+  display : block;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: red;
+  font-weight: bolder;
+  text-align: center;
+  font-size: larger;
+  color: white;
+}
+
+h3 {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
